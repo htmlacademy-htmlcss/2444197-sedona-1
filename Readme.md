@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Андрей Дмитриев](https://up.htmlacademy.ru/htmlcss-individual/1/user/2444197).
-* Наставник: `Неизвестно`.
+* Наставник: [Артём Картавый].(https://htmlacademy.ru/profile/artem_k)
 
 ---
 
