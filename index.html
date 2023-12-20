@@ -48,7 +48,7 @@
     <main class="main-index">
         <section class="hero">
             <h2 class="visually-hidden">О Седоне</h2>
-            <img class="logo" src="#" alt="Welcome to the gorgeous Sedona because the Grand Canyon sucks!">
+            <img class="hero-image" src="#" alt="Welcome to the gorgeous Sedona because the Grand Canyon sucks!">
         </section>
 
         <section class="advantages">
@@ -82,26 +82,20 @@
               <!--<a class="button button-all" href="#">Посмотреть все</a>-->
         </section>
 
-        <section class="heading">
-            <h2>Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
-            <p class="caption">Опытный персонал и качественное обслуживание!</p>
-        </section>
-
         <section class="features">
-            <h2 class="visually-hidden">Особенности</h2>
+          <h2>Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
+          <p class="caption">Опытный персонал и качественное обслуживание!</p>
+          <h2 class="visually-hidden">Особенности</h2>
             <ul class="features-list">
                 <li class="features-item">
-                    <img class="features-image" src="#" alt="Иконка жилье">
                     <h3 class="features-title">Жилье</h3>
                         <p class="features-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
                 </li>
                 <li class="features-item">
-                    <img class="features-image" src="#" alt="Иконка еда">
                     <h3 class="features-title">Еда</h3>
                         <p class="features-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
                 </li>
                 <li class="features-item">
-                    <img class="features-image" src="#" alt="Иконка сувениры">
                     <h3 class="features-title">Сувениры</h3>
                         <p class="features-description">Не только китайского, но и настоящего местного производства!</p>
                 </li>
@@ -111,18 +105,20 @@
         <section class="search">
             <h2>Заинтересовались?</h2>
             <p class="caption">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-            <button class="button-submit" type="submit">ПОИСК ГОСТИНИЦЫ В седоне</button>
+            <a class="pop-up modal" href="#"><button class="button" type="submit">ПОИСК ГОСТИНИЦЫ В седоне</button></a>
+
         </section>
 
         <section class="subscribe">
             <h2>Подпишитесь на рассылку</h2>
-            <img class="back-logo" src="#" alt="Размыте горы1">
+            <img class="subscribe-logo" src="#" alt="Размыте горы1">
             <p class="caption">Только полезная информация и никакого спама, честное бойскаутское!</p>
-            <p>
-                <label for="email"></label>
-                <input type="email" id="email" placeholder="Ваш email">
-                <button class="button-submit" type="submit">Подписаться</button>
-            </p>
+
+            <form class="subscribe-form" action="https://echo.htmlacademy.ru" method="post">
+              <label class="visually-hidden for="email-form"></label>
+              <input type="email" placeholder="Ваш email" name="user-email" id="email-form">
+              <button class="button-submit" type="submit">Подписаться</button>
+            </form>
         </section>
 
     <footer class="footer">
