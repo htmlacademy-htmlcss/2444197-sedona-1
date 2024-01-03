@@ -1,0 +1,31 @@
+  @font-face {
+    font-family: "ptsans", "Arial", sans-serif ;
+    font-weight: 400;
+    font-style: normal;
+    src: url("fonts/ptsans-400.woff2") format("woff2"),
+         url("fonts/ptsans-400.woff") format("woff");
+  }
+  @font-face {
+    font-family: "ptsans Bold"; /* указали насыщенность прямо в семействе */
+    font-weight: 700;
+    font-style: normal;
+    src: url("fonts/ptsans-700.woff2") format("woff2"),
+         url("fonts/ptsans-700.woff") format("woff");
+  }
+
+body{
+    background-color: none;
+    font-family: "ptsans", "Arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.title{
+    font-weight: 700;
+}
+
+p {
+    font-family: "ptsans-400";
+
+  }
